@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { IData } from '../types/Data';
 import getData from '../utils/GetData';
-import testData from './testData';
+// import testData from './testData';
 
 function Table() {
   const [data, setData] = useState<Array<IData> | []>([])
